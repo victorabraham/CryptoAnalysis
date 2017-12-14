@@ -4,6 +4,7 @@
   "description": "Tool to do analysis of Crypto coins",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,6 +13,21 @@
   },
   "author": "Victor",
   "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "node.bittrex.api": "^0.4.4",
+    "path": "^0.12.7",
+    "poloniex.js": "0.0.7",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "talib": "^1.0.3"
+  },
   "bugs": {
     "url": "https://github.com/victorabraham/CryptoAnalysis/issues"
   },
