@@ -59,3 +59,6 @@ typings/
 
 .DS_Store
 package-lock.json
+
+public/js/canvasjs.min.js
+public/js/jquery.canvasjs.min.js
